@@ -13,17 +13,15 @@
 
 
 /* General Styles in Body */
-html,
-body {
-  width: 100%;
-  height: 100%;
-}
+
+
 body {
     min-height: 100vh;
     display: flex;
+    height: 100%;
+    width: 100%;
     /* Generic project styles */
 }
-
 
 /* Header */
 header {
@@ -32,7 +30,6 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -53,11 +50,12 @@ header a {
     margin-bottom: 1em;
 }
 
-.recipe {
+.on-page {
     border-bottom: 1px solid #3a3a3a;
 }
 
 /* Navbar styles with dropdown toggle */
+
 nav {
     position: absolute;
     background-color: #ffffff;
@@ -70,6 +68,8 @@ nav {
 }
 
 /* nav-toggle */
+
+
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -82,9 +82,41 @@ nav {
     font-size: 2rem;
 }
 
+
 /* Main */
-/* main {
-} */
+main {
+    height: 100%;
+    width: 100%;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+#favourite-recipes {
+    margin-top: 50px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#something-new {
+    padding-top: 50px;
+    padding-left: 20;
+    padding-right: 20px;
+}
+
+.bold-lettering {
+    font-weight: 700;
+}
+
+/* recipe selector section */
+
+.recipe-options {
+    display: flex;
+    justify-content: center;
+}
+
 
 /* Section 1 */
 
@@ -92,10 +124,15 @@ nav {
 
 /* Section 3 */
 
+
 /* Footer */
 footer {
     position: fixed;
+    height: 60px;
     inset: auto 0 0 0;
+    z-index: 1;
+    background-color: #ffffff;
+    border-top: 2px solid #3a3a3a;
 }
 
 
@@ -108,16 +145,25 @@ footer {
 }
 
 #social-networks i {
+    
     font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
 }
 
 
-/* Media query: tablets and larger (576px and up) */
+/* Media query: mobile (up to 768px) */
 
-/* @media screen and (min-width: 576px) {
-} */
+
+@media screen and (max-width: 768px) {
+    .vl {
+        border-left: 2px solid #3a3a3a;
+        height: 30px;
+        margin-left: 15px;
+        display: none;
+      }
+}
+ 
 
 /* Media query: tablets and larger (768px and up) */
 
@@ -149,6 +195,13 @@ footer {
         line-height: 75px;
         margin: 0 0.5rem;
     }
+
+    .vl {
+        border-left: 2px solid #3a3a3a;
+        height: 30px;
+        margin-left: 15px;
+        visibility: visible;
+      }
 }
 
 /* Media query: laptops and larger (992px and up) */
@@ -159,7 +212,6 @@ footer {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
-
 }
 
 /* Media query: laptops and larger (1200px and up) */
