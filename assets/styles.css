@@ -139,12 +139,22 @@ main#home-main {
 
 /* recipe selector section */
 
+#recipe-selector-section {
+    background-color: #525B76;
+}
+
+.card {
+    background-color: #C4F1BE;
+}
+
 .recipe-options {
     display: flex;
     justify-content: center;
 }
 
-
+.btn-primary {
+    text-transform: capitalize;
+}
 /* About Us Page */
 
 main#about-main {
@@ -232,7 +242,11 @@ main#about-main {
     margin-right: 15px;
 }
 
+/* Recipe page styles */
 
+.recipe-main-content h2 {
+    font-family: 'Lemon', serif;
+}
 
 /* 
 .about-titles {
@@ -306,6 +320,10 @@ footer {
 
 .equipment-ingredients-box {
     background-color: #A2C3A4;
+}
+
+.ingredients-list {
+    color: #525B76;
 }
 
 .fixed-image {
