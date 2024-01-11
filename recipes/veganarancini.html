@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- working title -->
+    <title>Master Chefs!</title>
+
+    <!-- bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- basic Google fonts import links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lemon&display=swap" rel="stylesheet">
+
+    <!-- master chefs css -->
+    <link rel="stylesheet" href="/assets/styles.css" />
+  </head>
+
+  <!-- Body start -->
+  <body>
+    <header>
+      <!-- nav bar -->
+      <a href="/index.html">
+        <!-- working title -->
+        <h1 id="page-heading">Master Chefs!</h1>
+      </a>
+      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label"
+        ><i class="fa-solid fa-bars"></i
+      ></label>
+      <nav id="indent-nav">
+        <ul id="menu">
+          <li><a href="/index.html">Home</a></li>
+          <div class="vl"></div>
+          <li><a href="/about.html" class="on-page">About Us</a></li>
+          <div class="vl"></div>
+          <li><a href="/recipe.html">Recipes</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Bootstrap Container for the main content -->
+  <main class="recipe-main-content">
+    <h2>Vegan Squash & Orange Arancini</h2>
+    <hr>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Left Scrollable Content -->
+            <div class="col-md-4 col-sm-12 scrollable-content equipment-ingredients-box">
+                <!-- Recipe -->
+                <h3>Equipment:</h3>
+                <ul class="ingredients-list">
+                  <!-- Copy/paste/delete list items as required -->
+                    <li>Large frying pan</li>
+                    <li>Standard kitchen equipment</li>
+                </ul>
+                <hr>
+                <h3>Ingredients:</h3>
+                <ul class="ingredients-list">
+                  <b>Arancini</b>
+                    <li>650g/3¼ cups arborio or carnaroli rice</li>
+                    <li>300g/10.5 oz cooked squash purée (use around 1 small butternut squash – unsalted)</li>
+                    <li>2L/8½ cups (approx.) vegan stock (unsalted)</li>
+                    <li>1 tbsp vegan white wine (optional)</li>
+                    <li>13g (2 tsp approx.) salt + more to taste</li>
+                    <li>2 garlic cloves, puréed</li>
+                    <li>2 tbsp vegan butter</li>
+                    <li>1 tsp black pepper</li>
+                    <li>1 tbsp nutritional yeast</li>
+                    <li>1 tbsp orange juice</li>
+                    <li>Pinch of nutmeg</li>
+                    <li>Zest of ½ an orange</li>
+                    <li>Fresh thyme sprigs (optional)</li>
+                    <li>100g/1¼ cups vegan cheese, grated</li>
+                    <li>Vegetable oil for frying</li>
+                    <br>
+                    <b>Coating</b>
+                    <li>70g/½ cup plain flour (use gluten-free if needed)</li>
+                    <li>140ml/½ cup water</li>
+                    <li>200g/1¾ cups breadcrumbs (use gluten-free if needed)</li>
+                </ul>
+                <hr>
+                <h3>Method:</h3>
+                <ol class="ingredients-list">
+                  <li>Heat a large pan and add the rice. Dry-fry for a couple of minutes. This step, called ‘tostatura’ in Italian and will prevent the rice from overcooking and allow it to keep the “al dente” texture.</li>
+                  <li>Add the white wine, stir and let it evaporate. At this stage, add the puréed garlic cloves, the salt and a couple of ladles of broth. Stir consistently and once the water is absorbed, add more broth just as if you were to cook risotto.</li>
+                  <li>When the rice is almost cooked, pour the squash purée and season with the orange juice, black pepper, nutritional yeast, nutmeg, thyme and more salt to taste if needed.</li>
+                  <li>Give the rice a final stir by adding the vegan butter and cook until it reaches a thick texture. Spread on a baking tray and set aside to cool for at least 2 hours.</li>
+                  <li>Whilst the rice is cooling you can prepare the batter by mixing water and flour.</li>
+                  <li>Once ready to make arancini, wet your hands and get a handful of the rice. Flatten it slightly, fill it with vegan cheese then seal it and gently roll it to give it a round ball shape.</li>
+                  <li>After all the arancini are done, dip them in the batter then coat them with breadcrumbs. Lay them on a tray and rest in the fridge for 20 minutes. Alternatively, at this stage you can choose to freeze them.</li>
+                  <li>Using a deep saucepan, fill to just under half full with the vegetable oil and heat. When it reaches about 180°C, fry the arancini until they look golden. Dry on kitchen paper then enjoy them whilst still warm and crispy!</li>
+                </ol>
+            </div>
+            <!-- Right Fixed Image -->
+            <div class="col-md-8 col-sm-12 fixed-image">
+                <img src="/assets/images/veganarancini.jpg" alt="Squash & Orange Arancini in a basket" class="img-fluid">
+            </div>
+        </div>
+    </div>
+  </body>
+</main>
+
+  <footer>
+    <ul id="social-networks">
+      <li>
+        <a
+          href="https://www.facebook.com"
+          target="_blank"
+          rel="noopener"
+          aria-label="visit our Facebook page (opens in a new tab)"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+      </li>
+      <li>
+        <a
+          href="https://www.twitter.com"
+          target="_blank"
+          rel="noopener"
+          aria-label="visit our Twitter page (opens in a new tab)"
+          ><i class="fa-brands fa-square-twitter"></i
+        ></a>
+      </li>
+      <li>
+        <a
+          href="https://www.youtube.com"
+          target="_blank"
+          rel="noopener"
+          aria-label="visit our YouTube page (opens in a new tab)"
+          ><i class="fa-brands fa-square-youtube"></i
+        ></a>
+      </li>
+      <li>
+        <a
+          href="https://www.instagram.com"
+          target="_blank"
+          rel="noopener"
+          aria-label="visit our Instagram page (opens in a new tab)"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+      </li>
+    </ul>
+  </footer>
+  <!-- bootstrap script -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
+  <!-- Font Awesome Kit -->
+  <script
+    src="https://kit.fontawesome.com/ff8e893dec.js"
+    crossorigin="anonymous"
+  ></script>
+</body>
+</html>
