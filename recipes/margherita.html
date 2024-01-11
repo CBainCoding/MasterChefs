@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- working title -->
+    <title>Master Chefs!</title>
+
+    <!-- bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- basic Google fonts import links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lemon&display=swap" rel="stylesheet">
+
+    <!-- master chefs css -->
+    <link rel="stylesheet" href="/assets/styles.css" />
+  </head>
+
+  <!-- Body start -->
+  <body>
+    <header>
+      <!-- nav bar -->
+      <a href="/index.html">
+        <!-- working title -->
+        <h1 id="page-heading">Master Chefs!</h1>
+      </a>
+      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label"
+        ><i class="fa-solid fa-bars"></i
+      ></label>
+      <nav id="indent-nav">
+        <ul id="menu">
+          <li><a href="/index.html">Home</a></li>
+          <div class="vl"></div>
+          <li><a href="/about.html" class="on-page">About Us</a></li>
+          <div class="vl"></div>
+          <li><a href="/recipe.html">Recipes</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Bootstrap Container for the main content -->
+  <main class="recipe-main-content">
+    <h2>Margherita Pizza</h2>
+    <hr>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Left Scrollable Content -->
+            <div class="col-md-4 col-sm-12 scrollable-content equipment-ingredients-box">
+                <!-- Recipe -->
+                <h3>Equipment:</h3>
+                <ul class="ingredients-list">
+                  <!-- Copy/paste/delete list items as required -->
+                    <li>Large mixing bowl</li>
+                    <li>Stand mixer (optional)</li>
+                </ul>
+                <hr>
+                <h3>Ingredients:</h3>
+                <ul class="ingredients-list">
+                    <b>For the dough</b>
+                    <li>300g Strong bread flour</li>
+                    <li>1st Instant Yeast</li>
+                    <li>1st salt</li>
+                    <li>1tbsp Olive oil</li>
+                    <br>
+                    <b>For the sauce</b>
+                    <li>100ml passata</li>
+                    <li>Handful of fresh basil</li>
+                    <li>1 garlic clove, crushed</li>
+                    <br>
+                    <b>For the toppings</b>
+                    <li>125g ball mozzarella, sliced</li>
+                    <li>Handful grated/shaved parmesan</li>
+                    <li>Handful of cherry tomatoes, halved</li>
+                </ul>
+                <hr>
+                <h3>Method:</h3>
+                <ol class="ingredients-list">
+                  <li>Make the base: Put the flour into a large bowl, then stir in the yeast and salt. Make a well, pour in 200ml warm water and the olive oil and bring together with a wooden spoon until you have a soft, fairly wet dough. Turn onto a lightly floured surface and knead for 5 mins until smooth. Cover with a tea towel and set aside. You can leave the dough to rise if you like, but it’s not essential for a thin crust.</li>
+                  <li>Make the sauce: Mix the passata, basil and crushed garlic together, then season to taste. Leave to stand at room temperature while you get on with shaping the base.</li>
+                  <li>Roll out the dough: if you’ve let the dough rise, give it a quick knead, then split into two balls. On a floured surface, roll out the dough into large rounds, about 25cm across, using a rolling pin. The dough needs to be very thin as it will rise in the oven. Lift the rounds onto two floured baking sheets.</li>
+                  <li>Top and bake: heat the oven to 240C/220C fan/gas 8. Put another baking sheet or an upturned baking tray in the oven on the top shelf. Smooth sauce over bases with the back of a spoon. Scatter with cheese and tomatoes, drizzle with olive oil and season. Put one pizza, still on its baking sheet, on top of the preheated sheet or tray. Bake for 8-10 mins until crisp. Serve with a little more olive oil, and basil leaves if using. Repeat step for remaining pizza.</li>
+                  <br>
+                  <b>Enjoy! If you liked this recipe please post a picture on social media and tag us!</b>
+                </ol>
+            </div>
+            <!-- Right Fixed Image -->
+            <div class="col-md-8 col-sm-12 fixed-image">
+                <img src="/assets/images/pizza.jpg" alt="ALT TEXT HERE" class="img-fluid">
+            </div>
+        </div>
+    </div>
+  </body>
+</main>
+
+  <footer>
+    <ul id="social-networks">
+      <li>
+        <a
+          href="https://www.facebook.com"
+          target="_blank"
+          rel="noopener"
+          aria-label="visit our Facebook page (opens in a new tab)"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+      </li>
+      <li>
+        <a
+          href="https://www.twitter.com"
+          target="_blank"
+          rel="noopener"
+          aria-label="visit our Twitter page (opens in a new tab)"
+          ><i class="fa-brands fa-square-twitter"></i
+        ></a>
+      </li>
+      <li>
+        <a
+          href="https://www.youtube.com"
+          target="_blank"
+          rel="noopener"
+          aria-label="visit our YouTube page (opens in a new tab)"
+          ><i class="fa-brands fa-square-youtube"></i
+        ></a>
+      </li>
+      <li>
+        <a
+          href="https://www.instagram.com"
+          target="_blank"
+          rel="noopener"
+          aria-label="visit our Instagram page (opens in a new tab)"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+      </li>
+    </ul>
+  </footer>
+  <!-- bootstrap script -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
+  <!-- Font Awesome Kit -->
+  <script
+    src="https://kit.fontawesome.com/ff8e893dec.js"
+    crossorigin="anonymous"
+  ></script>
+</body>
+</html>
