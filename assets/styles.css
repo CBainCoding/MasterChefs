@@ -20,12 +20,19 @@ body {
     display: flex;
     height: 100%;
     width: 100%;
+    background-color: #869D96;
     /* Generic project styles */
 }
 
 /* Header */
+
+h1 {
+    font-family: 'Lemon', serif;
+}
+
 header {
-    background-color: #ffffff;
+    background-color: #201E50;
+    color: #e6e6e6;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -58,7 +65,7 @@ header a {
 
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color: #201E50;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -251,6 +258,23 @@ footer {
 
     box-shadow: 5px -5px;
 
+}
+
+/* -------------------------------- Recipe page styles */
+
+.equipment-ingredients-box {
+    background-color: #A2C3A4;
+}
+
+.fixed-image {
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 75vh;
+    max-height: 100vh;
+    background-size: cover;
+    margin-top: 0px;
 }
 
 /* Media query: mobile (up to 768px) */
