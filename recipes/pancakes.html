@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- working title -->
+    <title>Master Chefs!</title>
+
+    <!-- bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- basic Google fonts import links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lemon&display=swap" rel="stylesheet">
+
+    <!-- master chefs css -->
+    <link rel="stylesheet" href="/assets/styles.css" />
+  </head>
+
+  <!-- Body start -->
+  <body>
+    <header>
+      <!-- nav bar -->
+      <a href="/index.html">
+        <!-- working title -->
+        <h1 id="page-heading">Master Chefs!</h1>
+      </a>
+      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label"
+        ><i class="fa-solid fa-bars"></i
+      ></label>
+      <nav id="indent-nav">
+        <ul id="menu">
+          <li><a href="/index.html">Home</a></li>
+          <div class="vl"></div>
+          <li><a href="/about.html" class="on-page">About Us</a></li>
+          <div class="vl"></div>
+          <li><a href="/recipe.html">Recipes</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Bootstrap Container for the main content -->
+  <main class="recipe-main-content">
+    <h2>Fluffy American Pancakes</h2>
+    <hr>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Left Scrollable Content -->
+            <div class="col-md-4 col-sm-12 scrollable-content equipment-ingredients-box">
+                <!-- Recipe -->
+                <h3>Equipment:</h3>
+                <ul class="ingredients-list">
+                  <!-- Copy/paste/delete list items as required -->
+                    <li>Frying pan</li>
+                </ul>
+                <hr>
+                <h3>Ingredients:</h3>
+                <ul class="ingredients-list">
+                    <li>120g plain/all-purpose flour</li>
+                    <li>2 tbsp sugar</li>
+                    <li>2 tsp baking powder</li>
+                    <li>1 pinch of salt</li>
+                    <li>240 ml milk</li>
+                    <li>2 tbsp melted butter or vegetable oil</li>
+                    <li>1 large egg</li>
+                    <li>Assorting toppings such as maple syrup, fresh berries, etc.</li>
+                </ul>
+                <hr>
+                <h3>Method:</h3>
+                <ol class="ingredients-list">
+                  <li>Preheat the oven to 90°C, with a heatproof platter ready to keep cooked pancakes warm in the oven.</li>
+                  <li>In a small bowl, whisk together flour, sugar, baking powder, and salt. Set aside.</li>
+                  <li>In a medium bowl, whisk together milk, butter (or vegetable oil), and egg.</li>
+                  <li>Pour the dry ingredients to the milk mixture, and stir <strong>(do not overmix)</strong>.</li>
+                  <li>Heat a large skillet or griddle over medium heat, and coat generously with vegetable oil.</li>
+                  <li>For each pancake, spoon 2 or 3 Tablespoons of batter into the pan. Cook until the surface of pancakes have some bubbles, about 1 minute. Flip carefully with a thin spatula, and cook until brown on the underside, 1 to 2 minutes more.</li>
+                  <li>Transfer to the heatproof platter, cover with foil and keep warm in the oven until serving. Serve warm, with desired topping such as maple syrup, fresh berries or banana slices.</li>
+                </ol>
+            </div>
+            <!-- Right Fixed Image -->
+            <div class="col-md-8 col-sm-12 fixed-image">
+                <img src="/assets/images/pancakes.jpg" alt="Stack of American pancakes" class="img-fluid">
+            </div>
+        </div>
+    </div>
+  </body>
+</main>
+
+  <footer>
+    <ul id="social-networks">
+      <li>
+        <a
+          href="https://www.facebook.com"
+          target="_blank"
+          rel="noopener"
+          aria-label="visit our Facebook page (opens in a new tab)"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+      </li>
+      <li>
+        <a
+          href="https://www.twitter.com"
+          target="_blank"
+          rel="noopener"
+          aria-label="visit our Twitter page (opens in a new tab)"
+          ><i class="fa-brands fa-square-twitter"></i
+        ></a>
+      </li>
+      <li>
+        <a
+          href="https://www.youtube.com"
+          target="_blank"
+          rel="noopener"
+          aria-label="visit our YouTube page (opens in a new tab)"
+          ><i class="fa-brands fa-square-youtube"></i
+        ></a>
+      </li>
+      <li>
+        <a
+          href="https://www.instagram.com"
+          target="_blank"
+          rel="noopener"
+          aria-label="visit our Instagram page (opens in a new tab)"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+      </li>
+    </ul>
+  </footer>
+  <!-- bootstrap script -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
+  <!-- Font Awesome Kit -->
+  <script
+    src="https://kit.fontawesome.com/ff8e893dec.js"
+    crossorigin="anonymous"
+  ></script>
+</body>
+</html>

@@ -292,6 +292,10 @@ footer {
     background-color: #A2C3A4;
 }
 
+.ingredients-list {
+    color: #525B76;
+}
+
 .fixed-image {
     position: relative;
     top: 0;
