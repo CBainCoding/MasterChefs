@@ -98,6 +98,8 @@ main {
     padding-bottom: 100px;
 }
 
+/* home page */
+
 #favourite-recipes {
     margin-top: 50px;
     margin-left: 20px;
@@ -125,7 +127,105 @@ main {
 }
 
 
-/* Section 1 */
+/* About Us Page */
+
+main#about-main {
+   
+    margin-top: 50px;
+
+}
+
+.center-div {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#storytitle {
+
+    margin: 40px;
+    padding-bottom: 10px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+
+}
+
+#storytitle h2 {
+    text-align: left;
+}
+
+
+.about-image {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+
+#our-story {
+
+    background-color: aqua;
+    display: flex;
+    width: 100px;
+    margin-left: 15px;
+    justify-content: center;
+
+}
+
+#story-p > p {
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+#vision-about {
+
+    display: flex;
+
+}
+
+.vision-p {
+
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+
+/* 
+.about-titles {
+} 
+
+.storytime {
+
+}
+
+
+.story-about {
+
+}
+
+#our-vision {
+
+}
+
+.vision-time {
+
+}
+
+.vision-image {
+
+}
+
+.vision-about {
+
+} */
 
 /* Section 2 */
 
@@ -133,6 +233,8 @@ main {
 
 
 /* Footer */
+
+
 footer {
     position: fixed;
     height: 60px;
@@ -186,6 +288,16 @@ footer {
         margin-left: 15px;
         display: none;
       }
+
+    .mobile-break{
+
+        visibility: visible; 
+    }
+    
+    .laptop-break {
+    
+        display: none;
+    }
 }
  
 
@@ -225,17 +337,84 @@ footer {
         height: 30px;
         margin-left: 15px;
         visibility: visible;
-      }
+    }
+
 }
+
+@media screen and (min-width: 820px) {
+
+    #storytitle h2 {
+        text-align: center;
+    }
+
+} 
 
 /* Media query: laptops and larger (992px and up) */
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1025px) {
 
     /* Header */
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
+
+
+      /* About Us Page */
+
+      #story {
+        display: flex;
+    }
+
+    main#about-main {
+   
+        margin-top: 100px;
+    
+    }
+    
+    #storytitle {
+
+        margin: 5px;
+        padding-bottom: 0;
+        width: 60%;
+        background-color: aqua;
+        display: flex;
+        justify-content: flex-start;
+    
+    }
+
+    #storytitle h2 {
+        
+        font-size: 25px;
+        padding-left: 20px;
+        text-align: left;
+    }
+
+    .mobile-break{
+        display: none;
+    }
+
+    .laptop-break {
+        visibility: visible;
+    }
+
+    #our-story {
+
+        background-color: aqua;
+        display: flex;
+        width: 100px;
+        margin-left: 110px;
+        justify-content: center;
+    
+    }
+
+    #story-p > p {
+        display: flex;
+        justify-content: center;
+        margin-left: 110px;
+        margin-right: 100px;
+        margin-top: 15px;
+    }
+    
 }
 
 /* Media query: laptops and larger (1200px and up) */
