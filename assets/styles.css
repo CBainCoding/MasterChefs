@@ -128,12 +128,6 @@ main#about-main {
 
 }
 
-.center-div {
-
-    display: flex;
-    justify-content: center;
-
-}
 
 #storytitle {
 
@@ -253,6 +247,11 @@ footer {
     color: #3a3a3a;
 }
 
+.fa-brands:hover {
+
+    box-shadow: 5px -5px;
+
+}
 
 /* Media query: mobile (up to 768px) */
 
@@ -274,6 +273,8 @@ footer {
     
         display: none;
     }
+
+    
 }
  
 
@@ -308,6 +309,10 @@ footer {
         margin: 0 0.5rem;
     }
 
+    #page-heading:hover {
+        text-shadow: 2px 2px #3a3a3a;
+    }
+
     .vl {
         border-left: 2px solid #3a3a3a;
         height: 30px;
@@ -326,6 +331,20 @@ footer {
 } 
 
 /* Media query: laptops and larger (992px and up) */
+
+@media screen and (max-width: 1024px) {
+
+    .center-div {
+
+        display: flex;
+        justify-content: center;
+    
+    }
+
+
+}
+
+
 
 @media screen and (min-width: 1025px) {
 
