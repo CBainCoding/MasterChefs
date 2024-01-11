@@ -20,6 +20,9 @@ body {
     height: 100%;
     width: 100%;
     background-color: #869D96;
+    font-family: Lato;
+    font-weight: 600;
+    color: #e5f6e2;
     /* Generic project styles */
 }
 
@@ -27,6 +30,12 @@ body {
 
 h1 {
     font-family: 'Lemon', serif;
+    
+}
+
+h2, h3, h4, h5 {
+    font-family: 'Lemon', serif;
+    color: #201E50;
 }
 
 #page-heading:hover {
@@ -61,7 +70,7 @@ header a {
 }
 
 .on-page {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #869D96;
 }
 
 /* Navbar styles with dropdown toggle */
@@ -285,7 +294,7 @@ footer {
 
 @media screen and (max-width: 768px) {
     .vl {
-        border-left: 2px solid #3a3a3a;
+        border-left: 2px solid #869D96;
         height: 30px;
         margin-left: 15px;
         display: none;
@@ -336,20 +345,29 @@ footer {
         margin: 0 0.5rem;
     }
 
-    #page-heading:hover {
-        text-shadow: 2px 2px #3a3a3a;
-    }
-
     .vl {
-        border-left: 2px solid #3a3a3a;
+        border-left: 2px solid #869D96;
         height: 30px;
         margin-left: 15px;
         visibility: visible;
     }
 
+    /* About us page */
+
+    #storytitle {
+        margin-top: 120px;
+    }
+
+
 }
 
 @media screen and (min-width: 820px) {
+
+    /* About us page */
+
+    #storytitle {
+        margin-top: 50px;
+    }
 
     #storytitle h2 {
         text-align: center;
@@ -360,6 +378,8 @@ footer {
 /* Media query: laptops and larger (992px and up) */
 
 @media screen and (max-width: 1024px) {
+
+    /* About us page */
 
     .center-div {
 
@@ -377,7 +397,7 @@ footer {
 
     /* Header */
     #menu a:hover {
-        border-bottom: 1px solid #3a3a3a;
+        border-bottom: 1px solid #869D96;
     }
 
 
@@ -398,7 +418,6 @@ footer {
         margin: 5px;
         padding-bottom: 0;
         width: 60%;
-        background-color: aqua;
         display: flex;
         justify-content: flex-start;
     
@@ -421,7 +440,6 @@ footer {
 
     #our-story {
 
-        background-color: aqua;
         display: flex;
         width: 100px;
         margin-left: 110px;
