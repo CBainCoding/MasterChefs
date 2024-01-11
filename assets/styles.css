@@ -137,7 +137,9 @@ main {
     justify-content: center;
 }
 
-
+.btn-primary {
+    text-transform: capitalize;
+}
 /* About Us Page */
 
 main#about-main {
