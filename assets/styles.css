@@ -36,6 +36,8 @@ h1 {
 h2, h3, h4, h5 {
     font-family: 'Lemon', serif;
     color: #201E50;
+    font-size: 20px;
+
 }
 
 #page-heading:hover {
@@ -112,6 +114,10 @@ main {
 
 /* home page */
 
+main#home-main {
+    margin-top: 40px;
+}
+
 #favourite-recipes {
     margin-top: 50px;
     margin-left: 20px;
@@ -160,7 +166,7 @@ main#about-main {
 
 #storytitle {
 
-    margin: 40px;
+    margin: 20px 40px 10px 40px;
     padding-bottom: 10px;
     background-color: #A2C3A4;
     display: flex;
@@ -178,9 +184,16 @@ main#about-main {
 
     display: flex;
     justify-content: center;
+    margin-top: 0;
 
 }
 
+.about-image > img {
+
+    width: 90%;
+    height: 90%;
+    margin-bottom: 5px;
+}
 
 #our-story {
 
@@ -200,11 +213,28 @@ main#about-main {
     margin-top: 15px;
 }
 
+#our-vision-image img {
+
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 90%;
+    margin-left: 15px;
+
+}
+
+#our-vision-image h1 {
+    position: relative;
+    transform: translate(200px, -170px);
+    width: 30%;
+}
+
 #vision-about {
 
     display: flex;
 
 }
+
 
 .vision-p {
 
