@@ -128,6 +128,13 @@ main#about-main {
 
 }
 
+.center-div {
+
+    display: flex;
+    justify-content: center;
+
+}
+
 #storytitle {
 
     margin: 40px;
@@ -135,7 +142,12 @@ main#about-main {
     background-color: aqua;
     display: flex;
     justify-content: center;
+    width: 200px;
 
+}
+
+#storytitle h2 {
+    text-align: left;
 }
 
 
@@ -305,9 +317,17 @@ footer {
 
 }
 
+@media screen and (min-width: 820px) {
+
+    #storytitle h2 {
+        text-align: center;
+    }
+
+} 
+
 /* Media query: laptops and larger (992px and up) */
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1025px) {
 
     /* Header */
     #menu a:hover {
@@ -342,7 +362,7 @@ footer {
         
         font-size: 25px;
         padding-left: 20px;
-    
+        text-align: left;
     }
 
     .mobile-break{
