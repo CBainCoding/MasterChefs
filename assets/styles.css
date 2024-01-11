@@ -124,6 +124,14 @@ main {
 
 /* recipe selector section */
 
+#recipe-selector-section {
+    background-color: #525B76;
+}
+
+.card {
+    background-color: #C4F1BE;
+}
+
 .recipe-options {
     display: flex;
     justify-content: center;
@@ -193,7 +201,11 @@ main#about-main {
     margin-right: 15px;
 }
 
+/* Recipe page styles */
 
+.recipe-main-content h2 {
+    font-family: 'Lemon', serif;
+}
 
 /* 
 .about-titles {
