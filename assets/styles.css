@@ -160,7 +160,6 @@ main#home-main {
 main#about-main {
    
     margin-top: 50px;
-
 }
 
 
@@ -213,6 +212,11 @@ main#about-main {
     margin-top: 15px;
 }
 
+#story-p > h5 {
+
+    margin-left: 15px;
+}
+
 #our-vision-image img {
 
     display: flex;
@@ -224,11 +228,18 @@ main#about-main {
 }
 
 #our-vision-image h1 {
-    position: relative;
-    transform: translate(200px, -170px);
-    width: 30%;
+    margin-left: 17px;
+    font-size: 20px;
 }
 
+#our-vision {
+    background-color: #A2C3A4;
+    display: flex;
+    width: 100px;
+    margin-left: 15px;
+    margin-top: 7px;
+    justify-content: center;
+}
 #vision-about {
 
     display: flex;
@@ -501,6 +512,11 @@ footer {
         margin-left: 110px;
         margin-right: 100px;
         margin-top: 15px;
+    }
+    
+    #story-p > h5 {
+
+        margin-left: 110px;
     }
     
 }
