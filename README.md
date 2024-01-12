@@ -13,14 +13,42 @@ As an owner I want to make sure all devices have a responsive design
 Nav bar has a consistent look across all pages and links work. 
 On larger screens it displays in full on smaller devices it switches to a dropdown menu for ease of use
 
+The navigation bar has a consistent look and placement on all three pages of the website supporting easy navigation.  It includes a simple Logo, Home page, About Us page and links to Recipe pages and is responsive on multiple screen sizes.  On small screens (e.g. mobile devices) the Home, Menu and Contact links move to under the tab bar on the right. The navigation bar was designed to match the wireframe and was intended to be present on all pages on the site.
+
+![Navbar](/assets/images/nav%20bar.png)
+
 <h5>Landing page</h5>
 Landing page features links to highlighted recipes. In the future we would add search and filter functions to allow for more recipes without cluttering up the front page
+
+The landing area includes six menu cards with text and images together that clearly identify the purpose of the site and the type of information (recipes) available on it. This function was designed to help meet the “I want to find new recipes” criteria from the User Stories. A large blue button is placed at the center of each card on the screen as an eye-catching call to action which gives the user an obvious quick route to the recipe pages. In each of the cards is an image of the finished recipe to meet the “I want to see a picture of what the recipes make” story. They also include dietary information (user story: “I want to sort recipes by different dietary requirements).   
+
+![Landing Area](/assets/images/menu%20cards.png)
+
+
+<h5>Tagline</h5>
+The "All your favourite recipes, in one place Try something NEW this 2024, with our LATEST recipes from world-renowned chefs including Josh, Charles and Esther!" tagline appears on the main page to let the users know the purpose of the page. This tagline was taken from the wireframe design.
+
+![Tagline](/assets/images/Tag%20Line.png)
+
 
 <h5>Footer</h5>
 The footer was intended to feature on all pages and is identical on each page making it easy to use.  It contains four social media links (Facebook, Instagram, Twitter and Youtube), so that users can access the Master Chefs social media output.
 
+The footer was intended to feature on all pages and is identical on each page making it easy to use.  It contains four social media links (Facebook, Instagram, Twitter and Youtube), so that users can access the Master Chefs social media output. 
+
+![Footer](/assets/images/footer.png)
+
 <h5>About Us</h5>
 The About Us page gives the user more information about the chefs responsible for the recipes on the website - their backgrounds and vision for the site. The page was developed in accordance with the wireframe designs and includes an image of some of the chefs in action and an image of a tower viewfinder to match the contents of the paragraphs.
+
+
+top 
+
+![About Us Top](/assets/images/about%20us%20top.png)
+
+bottom
+
+![About Us Bottom](/assets/images/about%20us%20bottom.png)
 
 <h5>Recipe Pages</h5>
 Recipe Pages link from the front page recipe cards. Display an image of the meal with ingredients/method on the left-hand side to match wireframes. In future we would correct the image so it is fixed in the viewport as you scroll and on smaller devices the image would sit at the top of the page instead of the end.
