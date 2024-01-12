@@ -1,185 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- working title -->
-    <title>Master Chefs!</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- bootstrap css -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
+  <!-- working title -->
+  <title>Master Chefs!</title>
 
-    <!-- basic Google fonts import links -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lemon&display=swap" rel="stylesheet">
-    <!-- master chefs css -->
-    <link rel="stylesheet" href="assets/styles.css" />
-  </head>
+  <!-- bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
 
-  <body>
-    <header>
-      <!-- nav bar -->
-      <a href="index.html">
-        <!-- working title -->
-        <h1 id="page-heading">Master Chefs!</h1>
-      </a>
-      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
-      <label for="nav-toggle" class="nav-toggle-label"
-        ><i class="fa-solid fa-bars"></i
-      ></label>
-      <nav id="indent-nav">
-        <ul id="menu">
-          <li><a href="index.html" class="on-page">Home</a></li>
-          <div class="vl"></div>
-          <li><a href="about.html">About Us</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main id="home-main">
-      <section id="recipe-title-section">
-        <div id="favourite-recipes">
-          <h1>All your favourite recipes, in one place</h1>
-          <p id="something-new">Try something <span class="bold-lettering">NEW</span> this 2024, with our <span class="bold-lettering">LATEST</span> recipes from world-renowned chefs <br> including Josh, Charles and Esther!</p>
-        </div>
-      </section>
-      <section id="recipe-selector-section">
-        <!-- menu options cards -->
-        <div class="container text-center mt-5">
-          <div class="row recipe-options-container">
-            <div class="col p-1 p-md-3 p-lg-5 recipe-options">
-              <div class="card" style="width: 18rem">
-                <img src="/assets/images/pizza.jpg" class="card-img-top" alt="A picture of a margherita pizza (delicious)" />
-                <div class="card-body">
-                  <h5 class="card-title">Margherita Pizza <i class="fa-solid fa-plant-wilt"></i>V</h5>
-                  <p class="card-text">
-                    Even a novice cook can master the art of perfect pizza with our step-by-step guide. This homemade pizza recipe features a simple pizza dough and toppings.
-                  </p>
-                  <a href="/recipes/margherita.html" class="btn btn-primary">Margherita Pizza Recipe</a>
-                </div>
+  <!-- basic Google fonts import links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lemon&display=swap"
+    rel="stylesheet">
+  <!-- master chefs css -->
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+
+<body>
+  <header>
+    <!-- nav bar -->
+    <a href="index.html">
+      <!-- working title -->
+      <h1 id="page-heading">Master Chefs!</h1>
+    </a>
+    <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+    <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+    <nav id="indent-nav">
+      <ul id="menu">
+        <li><a href="index.html" class="on-page">Home</a></li>
+        <div class="vl"></div>
+        <li><a href="about.html">About Us</a></li>
+        <li><button type="button" class="btn btn-info" data-toggle="button" aria-pressed="false"
+            autocomplete="off"><a href="login.html">Login</a>
+          </button></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="home-main">
+    <section id="recipe-title-section">
+      <div id="favourite-recipes">
+        <h1>All your favourite recipes, in one place</h1>
+        <p id="something-new">Try something <span class="bold-lettering">NEW</span> this 2024, with our <span
+            class="bold-lettering">LATEST</span> recipes from world-renowned chefs <br> including Josh, Charles and
+          Esther!</p>
+      </div>
+    </section>
+    <section id="recipe-selector-section">
+      <!-- menu options cards -->
+      <div class="container text-center mt-5">
+        <div class="row recipe-options-container">
+          <div class="col p-1 p-md-3 p-lg-5 recipe-options">
+            <div class="card" style="width: 18rem">
+              <img src="/assets/images/pizza.jpg" class="card-img-top"
+                alt="A picture of a margherita pizza (delicious)" />
+              <div class="card-body">
+                <h5 class="card-title">Margherita Pizza <i class="fa-solid fa-plant-wilt"></i>V</h5>
+                <p class="card-text">
+                  Even a novice cook can master the art of perfect pizza with our step-by-step guide. This homemade
+                  pizza recipe features a simple pizza dough and toppings.
+                </p>
+                <a href="/recipes/margherita.html" class="btn btn-primary">Margherita Pizza Recipe</a>
               </div>
             </div>
-            <div class="col p-1 p-md-3 p-lg-5 recipe-options">
-              <div class="card" style="width: 18rem">
-                <img src="/assets/images/pasta.webp" class="card-img-top" alt="Blistered cherry tomato pasta, served on a plate" />
-                <div class="card-body">
-                  <h5 class="card-title">Blistered cherry tomato pasta <i class="fa-solid fa-plant-wilt"></i>V</h5>
-                  <p class="card-text">
-                    With just a handful of ingredients, you can make a delicious fresh tomato sauce for pasta in 10 minutes flat.
-                  </p>
-                  <a href="/recipes/pasta.html" class="btn btn-primary">10 minute pasta recipe</a>
-                </div>
+          </div>
+          <div class="col p-1 p-md-3 p-lg-5 recipe-options">
+            <div class="card" style="width: 18rem">
+              <img src="/assets/images/pasta.webp" class="card-img-top"
+                alt="Blistered cherry tomato pasta, served on a plate" />
+              <div class="card-body">
+                <h5 class="card-title">Blistered cherry tomato pasta <i class="fa-solid fa-plant-wilt"></i>V</h5>
+                <p class="card-text">
+                  With just a handful of ingredients, you can make a delicious fresh tomato sauce for pasta in 10
+                  minutes flat.
+                </p>
+                <a href="/recipes/pasta.html" class="btn btn-primary">10 minute pasta recipe</a>
               </div>
             </div>
-            <div class="col p-1 p-md-3 p-lg-5 recipe-options">
-              <div class="card" style="width: 18rem">
-                <img src="/assets/images/vegancurry.jpg" class="card-img-top" alt="Thai Aubergine Curry" />
-                <div class="card-body">
-                  <h5 class="card-title">Thai Aubergine Curry <i class="fa-solid fa-leaf"></i>Vg</h5>
-                  <p class="card-text">
-                    This is a simplified version of a Thai street food dish. The combination of aubergine, lemongrass, tamarind, coconut milk, sugar and spices is incredible. Many people have said this is the most delicious curry they’ve ever eaten!
-                  </p>
-                  <a href="/recipes/vegancurry.html" class="btn btn-primary">Thai Aubergine Curry Recipe</a>
-                </div>
+          </div>
+          <div class="col p-1 p-md-3 p-lg-5 recipe-options">
+            <div class="card" style="width: 18rem">
+              <img src="/assets/images/vegancurry.jpg" class="card-img-top" alt="Thai Aubergine Curry" />
+              <div class="card-body">
+                <h5 class="card-title">Thai Aubergine Curry <i class="fa-solid fa-leaf"></i>Vg</h5>
+                <p class="card-text">
+                  This is a simplified version of a Thai street food dish. The combination of aubergine, lemongrass,
+                  tamarind, coconut milk, sugar and spices is incredible. Many people have said this is the most
+                  delicious curry they’ve ever eaten!
+                </p>
+                <a href="/recipes/vegancurry.html" class="btn btn-primary">Thai Aubergine Curry Recipe</a>
               </div>
             </div>
-            <div class="col p-1 p-md-3 p-lg-5 recipe-options">
-              <div class="card" style="width: 18rem">
-                <img src="/assets/images/veganarancini.jpg" class="card-img-top" alt="Squash & Orange Arancini" />
-                <div class="card-body">
-                  <h5 class="card-title">Squash & Orange Arancini <i class="fa-solid fa-leaf"></i>Vg</h5>
-                  <p class="card-text">
-                    Crispy on the outside, soft and flavourful on the inside with a gooey and cheesy heart. These squash and orange arancini are a crowd-pleaser and will surprise you with their citrusy notes. This recipe makes around 28 small arancini.
-                  </p>
-                  <a href="/recipes/veganarancini.html" class="btn btn-primary">Squash & Orange Arancini</a>
-                </div>
+          </div>
+          <div class="col p-1 p-md-3 p-lg-5 recipe-options">
+            <div class="card" style="width: 18rem">
+              <img src="/assets/images/veganarancini.jpg" class="card-img-top" alt="Squash & Orange Arancini" />
+              <div class="card-body">
+                <h5 class="card-title">Squash & Orange Arancini <i class="fa-solid fa-leaf"></i>Vg</h5>
+                <p class="card-text">
+                  Crispy on the outside, soft and flavourful on the inside with a gooey and cheesy heart. These squash
+                  and orange arancini are a crowd-pleaser and will surprise you with their citrusy notes. This recipe
+                  makes around 28 small arancini.
+                </p>
+                <a href="/recipes/veganarancini.html" class="btn btn-primary">Squash & Orange Arancini</a>
               </div>
             </div>
-            <div class="col p-1 p-md-3 p-lg-5 recipe-options">
-              <div class="card" style="width: 18rem">
-                <img src="/assets/images/gnocchi.jpg" class="card-img-top" alt="Baked Gnocchi" />
-                <div class="card-body">
-                  <h5 class="card-title">Baked Gnocchi <i class="fa-solid fa-plant-wilt"></i>V</h5>
-                  <p class="card-text">
-                    This vegetarian Baked Gnocchi recipe is so quick and tasty. A super simple sauce, packed with spinach and tomatoes, is topped with mozzarella cheese for the perfect easy comfort food supper.
-                  </p>
-                  <a href="/recipes/gnocchi.html" class="btn btn-primary">Baked Gnocchi recipe</a>
-                </div>
+          </div>
+          <div class="col p-1 p-md-3 p-lg-5 recipe-options">
+            <div class="card" style="width: 18rem">
+              <img src="/assets/images/gnocchi.jpg" class="card-img-top" alt="Baked Gnocchi" />
+              <div class="card-body">
+                <h5 class="card-title">Baked Gnocchi <i class="fa-solid fa-plant-wilt"></i>V</h5>
+                <p class="card-text">
+                  This vegetarian Baked Gnocchi recipe is so quick and tasty. A super simple sauce, packed with spinach
+                  and tomatoes, is topped with mozzarella cheese for the perfect easy comfort food supper.
+                </p>
+                <a href="/recipes/gnocchi.html" class="btn btn-primary">Baked Gnocchi recipe</a>
               </div>
             </div>
-            <div class="col p-1 p-md-3 p-lg-5 recipe-options">
-              <div class="card" style="width: 18rem">
-                <img src="/assets/images/pancakes.jpg" class="card-img-top" alt="Fluffy American Pancakes" />
-                <div class="card-body">
-                  <h5 class="card-title">Fluffy American Pancakes <i class="fa-solid fa-plant-wilt"></i>V</h5>
-                  <p class="card-text">
-                    These easy fluffy American pancakes are the BEST pancake recipe you can possibly find. With only 6 ingredients and 2 minutes preparation, you get generous and fluffy pancakes with no effort.
-                  </p>
-                  <a href="/recipes/pancakes.html" class="btn btn-primary">Fluffy American Pancakes Recipe</a>
-                </div>
+          </div>
+          <div class="col p-1 p-md-3 p-lg-5 recipe-options">
+            <div class="card" style="width: 18rem">
+              <img src="/assets/images/pancakes.jpg" class="card-img-top" alt="Fluffy American Pancakes" />
+              <div class="card-body">
+                <h5 class="card-title">Fluffy American Pancakes <i class="fa-solid fa-plant-wilt"></i>V</h5>
+                <p class="card-text">
+                  These easy fluffy American pancakes are the BEST pancake recipe you can possibly find. With only 6
+                  ingredients and 2 minutes preparation, you get generous and fluffy pancakes with no effort.
+                </p>
+                <a href="/recipes/pancakes.html" class="btn btn-primary">Fluffy American Pancakes Recipe</a>
               </div>
             </div>
           </div>
         </div>
-      </section>
-    </main>
-    <!-- footer -->
-    <footer>
-      <ul id="social-networks">
-        <li>
-          <a
-            href="https://www.facebook.com"
-            target="_blank"
-            rel="noopener"
-            aria-label="visit our Facebook page (opens in a new tab)"
-            ><i class="fa-brands fa-facebook"></i
-          ></a>
-        </li>
-        <li>
-          <a
-            href="https://www.twitter.com"
-            target="_blank"
-            rel="noopener"
-            aria-label="visit our Twitter page (opens in a new tab)"
-            ><i class="fa-brands fa-square-twitter"></i
-          ></a>
-        </li>
-        <li>
-          <a
-            href="https://www.youtube.com"
-            target="_blank"
-            rel="noopener"
-            aria-label="visit our YouTube page (opens in a new tab)"
-            ><i class="fa-brands fa-square-youtube"></i
-          ></a>
-        </li>
-        <li>
-          <a
-            href="https://www.instagram.com"
-            target="_blank"
-            rel="noopener"
-            aria-label="visit our Instagram page (opens in a new tab)"
-            ><i class="hover-social fa-brands fa-instagram"></i
-          ></a>
-        </li>
-      </ul>
-    </footer>
-    <!-- bootstrap script -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    ></script>
-    <!-- Font Awesome Kit -->
-    <script
-      src="https://kit.fontawesome.com/ff8e893dec.js"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+      </div>
+    </section>
+  </main>
+  <!-- footer -->
+  <footer>
+    <ul id="social-networks">
+      <li>
+        <a href="https://www.facebook.com" target="_blank" rel="noopener"
+          aria-label="visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+      </li>
+      <li>
+        <a href="https://www.twitter.com" target="_blank" rel="noopener"
+          aria-label="visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-square-twitter"></i></a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com" target="_blank" rel="noopener"
+          aria-label="visit our YouTube page (opens in a new tab)"><i class="fa-brands fa-square-youtube"></i></a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com" target="_blank" rel="noopener"
+          aria-label="visit our Instagram page (opens in a new tab)"><i
+            class="hover-social fa-brands fa-instagram"></i></a>
+      </li>
+    </ul>
+  </footer>
+  <!-- bootstrap script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <!-- Font Awesome Kit -->
+  <script src="https://kit.fontawesome.com/ff8e893dec.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
