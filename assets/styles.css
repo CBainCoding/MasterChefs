@@ -128,10 +128,12 @@ main#home-main {
 }
 
 #something-new {
-    padding-top: 50px;
-    padding-left: 20;
+
+    padding-left: 20px;
     padding-right: 20px;
+
 }
+
 
 .bold-lettering {
     font-weight: 700;
@@ -410,6 +412,12 @@ footer {
         height: 30px;
         margin-left: 15px;
         visibility: visible;
+    }
+
+    /* main */
+
+    #favourite-recipes {
+        margin-top: 100px;
     }
 
     /* About us page */
